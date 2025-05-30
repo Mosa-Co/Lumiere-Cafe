@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Lumière | Menu</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/navigation.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="icon" type="image/png" href="https://i.pinimg.com/736x/9c/ad/5a/9cad5aba21bccddbdc5354bdf1935610.jpg" sizes="32x32" />
+</head>
+<body class="dark-theme">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#hero">
+        <span class="nav-logo">CL</span>
+      </a>
+
+      <!-- Theme Toggle -->
+      <div class="theme-toggle d-flex me-2 ms-2">
+        <input type="checkbox" id="theme-toggle" class="theme-checkbox">
+        <label for="theme-toggle" class="theme-label">
+          <i class="fas fa-sun"></i>
+          <i class="fas fa-moon"></i>
+          <div class="ball"></div>
+        </label>
+      </div>
+
+      <!-- Language Toggle -->
+      <div class="language-toggle d-flex me-3 ms-2">
+        <input type="checkbox" id="language-toggle" class="language-checkbox">
+        <label for="language-toggle" class="language-label">
+          <span data-en="EN" data-ar="EN">EN</span>
+          <span data-en="AR" data-ar="AR">AR</span>
+          <div class="ball"></div>
+        </label>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#drinks" data-en="Drinks" data-ar="المشروبات">Drinks</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#meals" data-en="Meals" data-ar="الوجبات">Meals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#desserts" data-en="Desserts" data-ar="الحلويات">Desserts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#extras" data-en="Extras" data-ar="الإضافات">Extras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#offers" data-en="Offers" data-ar="العروض">Offers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" data-en="Contact" data-ar="اتصل بنا">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <div class="logo-container">
+            <img src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&w=150" alt="Café Lumière Logo" class="hero-logo">
+          </div>
+          <h1 class="restaurant-name" data-en="Café Lumière" data-ar="كافيه لوميير">Café Lumière</h1>
+          <p class="restaurant-slogan" data-en="Where Flavor Meets Ambiance" data-ar="حيث النكهة تلتقي بالأجواء">Where Flavor Meets Ambiance</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Drinks Section -->
+  <section id="drinks" class="menu-section">
+    <div class="container">
+      <h2 class="section-title" data-en="Drinks" data-ar="المشروبات">Drinks</h2>
+      <div class="section-underline"></div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="menu-list">
+            <!-- First 25 drinks -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h3 class="item-name" data-en="Specialty Coffee 1" data-ar="قهوة مميزة 1">Specialty Coffee 1</h3>
+                <span class="item-price">$3.00</span>
+              </div>
+              <p class="item-description" data-en="Our signature blend with unique flavors" data-ar="مزيجنا المميز بنكهات فريدة">Our signature blend with unique flavors</p>
+            </div>
+            <!-- Repeat for remaining 24 drinks -->
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="menu-list">
+            <!-- Next 25 drinks -->
+            <div class="menu-item">
+              <div class="menu-item-header">
+                <h3 class="item-name" data-en="Premium Tea 1" data-ar="شاي فاخر 1">Premium Tea 1</h3>
+                <span class="item-price">$4.00</span>
+              </div>
+              <p class="item-description" data-en="Carefully selected tea leaves with aromatic blend" data-ar="أوراق شاي مختارة بعناية مع مزيج عطري">Carefully selected tea leaves with aromatic blend</p>
+            </div>
+            <!-- Repeat for remaining 24 teas -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Meals Section -->
+  <section id="meals" class="menu-section">
+    <div class="container">
+      <h2 class="section-title" data-en="Meals" data-ar="الوجبات">Meals</h2>
+      <div class="section-underline"></div>
+
+      <div class="row">
+        <!-- 20 meal cards -->
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Meal 1">
+            </div>
+            <div class="menu-card-content">
+              <h3 class="item-name" data-en="Signature Dish 1" data-ar="طبق مميز 1">Signature Dish 1</h3>
+              <p class="item-description" data-en="Chef's special creation with premium ingredients" data-ar="إبداع الشيف مع مكونات فاخرة">Chef's special creation with premium ingredients</p>
+              <div class="card-price">$15.00</div>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat for remaining 19 meals -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Desserts Section -->
+  <section id="desserts" class="menu-section">
+    <div class="container">
+      <h2 class="section-title" data-en="Desserts" data-ar="الحلويات">Desserts</h2>
+      <div class="section-underline"></div>
+
+      <div class="row">
+        <!-- 15 dessert cards -->
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img src="https://images.pexels.com/photos/3992131/pexels-photo-3992131.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dessert 1">
+            </div>
+            <div class="menu-card-content">
+              <h3 class="item-name" data-en="Sweet Delight 1" data-ar="حلوى لذيذة 1">Sweet Delight 1</h3>
+              <p class="item-description" data-en="Handcrafted dessert with premium ingredients" data-ar="حلوى يدوية الصنع بمكونات فاخرة">Handcrafted dessert with premium ingredients</p>
+              <div class="card-price">$8.00</div>
+            </div>
+          </div>
+        </div>
+        <!-- Repeat for remaining 14 desserts -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Extras Section -->
+  <section id="extras" class="menu-section">
+    <div class="container">
+      <h2 class="section-title" data-en="Extras" data-ar="الإضافات">Extras</h2>
+      <div class="section-underline"></div>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img src="https://images.pexels.com/photos/323682/pexels-photo-323682.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Truffle Fries">
+            </div>
+            <div class="menu-card-content">
+              <h3 class="item-name" data-en="Truffle Fries" data-ar="بطاطس مقلية بالكمأة">Truffle Fries</h3>
+              <p class="item-description" data-en="Crispy fries with truffle oil and parmesan" data-ar="بطاطس مقرمشة مع زيت الكمأة وجبنة البارميزان">Crispy fries with truffle oil and parmesan</p>
+              <div class="card-price">$6.50</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="menu-card">
+            <div class="menu-card-img">
+              <img src="https://images.pexels.com/photos/3233275/pexels-photo-3233275.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Side Salad">
+            </div>
+            <div class="menu-card-content">
+              <h3 class="item-name" data-en="Side Salad" data-ar="سلطة جانبية">Side Salad</h3>
+              <p class="item-description" data-en="Mixed greens with house dressing" data-ar="خضروات مشكلة مع صلصة المنزل">Mixed greens with house dressing</p>
+              <div class="card-price">$4.95</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Offers Section -->
+  <section id="offers" class="menu-section">
+    <div class="container">
+      <h2 class="section-title" data-en="Special Offers" data-ar="عروض خاصة">Special Offers</h2>
+      <div class="section-underline"></div>
+
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="menu-card special-offer">
+            <div class="menu-card-img">
+              <img src="https://images.pexels.com/photos/1854652/pexels-photo-1854652.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Brunch Special">
+              <div class="offer-badge" data-en="Special" data-ar="خاص">Special</div>
+            </div>
+            <div class="menu-card-content">
+              <h3 class="item-name" data-en="Weekend Brunch Special" data-ar="عرض فطور نهاية الأسبوع">Weekend Brunch Special</h3>
+              <p class="item-description" data-en="Any brunch item with coffee and fresh juice" data-ar="أي وجبة فطور مع قهوة وعصير طازج">Any brunch item with coffee and fresh juice</p>
+              <div class="card-price-special">
+                <span class="original-price">$24.95</span>
+                <span class="special-price">$19.95</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mb-4">
+          <div class="menu-card special-offer">
+            <div class="menu-card-img">
+              <img src="https://images.pexels.com/photos/2074130/pexels-photo-2074130.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dinner for Two">
+              <div class="offer-badge" data-en="Special" data-ar="خاص">Special</div>
+            </div>
+            <div class="menu-card-content">
+              <h3 class="item-name" data-en="Dinner for Two" data-ar="عشاء لشخصين">Dinner for Two</h3>
+              <p class="item-description" data-en="Two main courses, dessert and a bottle of wine" data-ar="طبقان رئيسيان، حلوى وزجاجة نبيذ">Two main courses, dessert and a bottle of wine</p>
+              <div class="card-price-special">
+                <span class="original-price">$65.00</span>
+                <span class="special-price">$49.95</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <h2 class="section-title" data-en="Contact Us" data-ar="اتصل بنا">Contact Us</h2>
+      <div class="section-underline"></div>
+
+      <div class="row">
+        <div class="col-md-6 contact-info">
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <p data-en="Phone: +1 (555) 123-4567" data-ar="هاتف: +1 (555) 123-4567">Phone: +1 (555) 123-4567</p>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p data-en="123 Gourmet Street, Culinary District, CA 90210" data-ar="123 شارع غورميه، حي كولناري، كاليفورنيا 90210">123 Gourmet Street, Culinary District, CA 90210</p>
+          </div>
+
+          <div class="contact-item">
+            <i class="fas fa-clock"></i>
+            <p data-en="Hours: Monday-Friday 8AM-10PM, Weekends 9AM-11PM" data-ar="ساعات العمل: الإثنين-الجمعة 8 ص - 10 م، عطلة نهاية الأسبوع 9 ص - 11 م">Hours: Monday-Friday 8AM-10PM, Weekends 9AM-11PM</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 social-links">
+          <h3 data-en="Follow Us" data-ar="تابعنا">Follow Us</h3>
+          <div class="social-icons">
+            <a href="https://linktr.ee/" target="_blank" class="social-icon"><i class="fab fa-facebook"></i></a>
+            <a href="https://linktr.ee/" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="https://linktr.ee/" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="https://linktr.ee/" target="_blank" class="social-icon"><i class="fab fa-tiktok"></i></a>
+          </div>
+
+          <div class="subscribe-container">
+            <h3 data-en="Subscribe to our newsletter" data-ar="اشترك في نشرتنا الإخبارية">Subscribe to our newsletter</h3>
+            <div class="input-group">
+              <input type="email" class="form-control" placeholder="Your email" data-en-placeholder="Your email" data-ar-placeholder="بريدك الإلكتروني">
+              <button class="btn btn-subscribe" data-en="Subscribe" data-ar="اشترك">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p data-en="All rights reserved – Designed by Mosa" data-ar="جميع الحقوق محفوظة - تصميم موسى">All rights reserved – Designed by Mosa</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/theme-toggle.js"></script>
+  <script src="js/language-toggle.js"></script>
+  <script src="js/smooth-scroll.js"></script>
+</body>
+</html>
